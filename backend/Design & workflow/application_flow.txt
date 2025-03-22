@@ -1,0 +1,26 @@
+1>Database that contains PDFs for particular subject
+2>We extract text from the pdfs using pdfminer(for now) and store in the following manner
+|-{pdf_name}+{extraction_tool_name}
+    |- Page_{number} 
+        |-Page_{number}.txt
+        |-Processed_Page_{number}.txt
+
+
+3>Created a Class that gives these page wise text as input to the LLM and 
+  LLM is prompted to clean the text a bit but do not alter the text at all as We want to store the Raw text.
+  in Processed_Page_{number}.txt
+
+4>Then we have to create a wrapper module that uses these to classes and createst these processed txt files.
+  This module should be a class  that has the methods to process these texts because.
+  1.we will be having large number of pdfs to process.
+  2.The object of this module will be responsible:
+    1. taking the pdfs as input.
+    2. utilize the clean_data_agent and text_extractor agent to preprocess the pdfs text and store in the Database
+5> We have to following Databases.
+   1> Database with seprecate containers:
+      1.for pdfs
+      2.for Txt files for each pdfs
+      3>for Conversations and Queries.
+   2> Vector Database for storing the Enbedding of processed txt data with proper index and meta information
+
+6> We have to create the proper Chat Interface using Langraph so that user can utilize the RAG powered app seamlessly with conversation hisroty management across the Chat.
