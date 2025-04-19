@@ -1,0 +1,48 @@
+{
+  "name": "doubtmate-chat",
+  "version": "1.0.0",
+  "description": "DoubtMate Chatbot Application",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "jest",
+    "dev": "electron . --dev"
+  },
+  "keywords": [
+    "doubtmate",
+    "chatbot",
+    "electron",
+    "education"
+  ],
+  "author": "DoubtMate Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-builder": "^24.6.4",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  },
+  "build": {
+    "appId": "com.doubtmate.chat",
+    "productName": "DoubtMate Chat",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.education"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
