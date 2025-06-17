@@ -1,0 +1,83 @@
+Page 5
+
+Step V: Examine the above equation and pick up the third element
+which  is  not  balanced.  You  find  that  only  one  element  is  left  to  be
+balanced, that is, iron.
+Atoms  of
+iron
+(i)
+Initial
+(ii) To  balance
+In  reactants
+In products
+1 (in Fe)
+1×3
+3 (in Fe3O4)
+3
+To equalise Fe, we take three atoms of Fe on the LHS.
+3   Fe   +   4   H2O   →   Fe3O4   +   4   H2
+(1.8)
+Step VI: Finally, to check the correctness of the balanced equation, we
+count atoms of each element on both sides of the equation.
+3Fe + 4H2O → Fe3O4 + 4H2
+(1.9)
+(balanced equation)
+The numbers of atoms of elements on both sides of Eq. (1.9) are
+equal. This equation is now balanced. This method of balancing chemical
+equations is called hit-and-trial method as we make trials to balance
+the equation by using the smallest whole number coefficient.
+Writing  Symbols  of  Physical  States
+Writing  Symbols  of  Physical  States
+Writing  Symbols  of  Physical  States    Carefully  examine
+Step  VII:  Writing  Symbols  of  Physical  States
+Writing  Symbols  of  Physical  States
+the above balanced Eq. (1.9). Does this equation tell us anything about
+the physical state of each reactant and product? No information has
+been given in this equation about their physical states.
+To make a chemical equation more informative, the physical states
+of the reactants and products are mentioned along with their chemical
+formulae. The gaseous, liquid, aqueous and solid states of reactants
+and  products  are  represented  by  the  notations  (g),  (l),  (aq)  and  (s),
+respectively. The word aqueous (aq) is written if the reactant or product
+is present as a solution in water.
+The balanced Eq. (1.9) becomes
+3Fe(s) + 4H2O(g)  → Fe3O4(s) + 4H2(g)
+Note that the symbol (g) is used with H2O to indicate that in this
+(1.10)
+reaction water is used in the form of steam.
+Usually physical states are not included in a chemical equation unless
+it is necessary to specify them.
+Sometimes the reaction conditions, such as temperature, pressure,
+catalyst, etc., for the reaction are indicated above and/or below the arrow
+in the equation. For example –
+CO(g) + 2H (g)
+2
+
+340 atm
+
+→
+CH OH(l)
+3
++
+6CO (aq) 12H O(l)
+2
+2
+
+Sunlight
+
+→
+Chlorophyll
+C H O (aq) 6O
+6
+6 12
++
+22
+(aq) 6H O(l)
++
+2
+(1.11)
+(1.12)
+Using these steps, can you balance Eq. (1.2) given in the text earlier?
+   (Glucose)
+Chemical Reactions and Equations
+5

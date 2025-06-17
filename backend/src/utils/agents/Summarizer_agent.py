@@ -1,3 +1,8 @@
+"""
+Repsonsible for summarizing text using a language model.
+This module provides a class to summarize text using a language model. It loads the summarization prompt from a file and uses the language model to generate a summary.
+"""
+
 import os 
 from src.utils.agents.Base_agent import BaseAgent
 import aiofiles
